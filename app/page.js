@@ -15,8 +15,9 @@ import styles from "./components/page.module.css";
 
 const page = () => {
   return (
-    <div><Navbar/>
-      <body className={styles.body}>
+    <div>
+      <Navbar/>
+      <div className={styles.body}>
         <section id='home'>
           <div className={styles.home}>
             <p className={styles.p1}>CREATIVE WEB DESIGNER</p>
@@ -167,7 +168,7 @@ const page = () => {
         </section>
         <Footer/>
         <ScrollToTop />
-      </body>
+      </div>
     </div>
   );
 }

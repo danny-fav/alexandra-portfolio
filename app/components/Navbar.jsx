@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className='you' style={{ background:' #ffffffdc',backdropFilter:'blur(5px)', gap:'650px',color: '#737373',padding:'30px', paddingLeft:'40px',paddingRight:'55px', display: 'flex',justifyItems:'center',alignItems:'center',fontFamily: 'sans-serif', position:'fixed',top:'0px',zIndex:'9999'}}>
+      <nav style={{ background:' #ffffffdc',backdropFilter:'blur(5px)', gap:'650px',color: '#737373',padding:'30px', paddingLeft:'40px',paddingRight:'55px', display: 'flex',justifyItems:'center',alignItems:'center',fontFamily: 'sans-serif', position:'fixed',top:'0px',zIndex:'9999'}}>
         <div style={{float:'left'}}>
             <span style={{color:'#C4A673', fontSize:'24px'}}>A</span>
             <span style={{color:'#000', fontSize:'24px'}}>lexandra</span>

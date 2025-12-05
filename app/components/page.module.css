@@ -1,6 +1,7 @@
 .body{
   background:white;
-  margin-top:150px;
+  margin-top:0px;
+  padding: 150px;
 }
 .navLink {
   position: relative;

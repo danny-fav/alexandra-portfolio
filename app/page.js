@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import Navbar from './components/Navbar';
+import Navphone from './components/Navphone';
 import ScrollToTop from './components/Scroll';
 import "tailwindcss";
 import Gird1 from './components/Gird1';
@@ -16,7 +17,8 @@ import styles from "./components/page.module.css";
 
 const page = () => {
   return (
-    <div><Navbar/>
+    <div>
+      <Navbar/>
       <body className={styles.body}>
         <section id='home'>
           <div className={styles.home}>
@@ -67,33 +69,69 @@ const page = () => {
             <h1>Selected Works</h1>
             <div className={styles.grid2}>
               <div className={styles.g3}>
-                <div style={{width:'900px'}}>
-                <Gird1/>
+                <div className={styles.g3_1} style={{width:'900px'}}>
+                  <div className={styles.hid1}>
+                <Gird1/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
               <div className={styles.g3}>
-                <div style={{width:'370px'}}>
-                <Gird2/>
+                <div className={styles.g3_1} style={{width:'370px'}}>
+                <div className={styles.hid1}>
+                <Gird2/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
               <div className={styles.g3}>
-                <div style={{width:'700px'}}>
-                <Gird3/>
+                <div className={styles.g3_1} style={{width:'700px'}}>
+                  <div className={styles.hid1}>
+                <Gird3/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
               <div className={styles.g3}>
-                <div style={{width:'700px'}}>
-                <Gird4/>
+                <div className={styles.g3_1} style={{width:'700px'}}>
+                <div className={styles.hid1}>
+                <Gird4/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
               <div className={styles.g3}>
-                <div style={{width:'370px'}}>
-                <Gird5/>
+                <div className={styles.g3_1} style={{width:'370px'}}>
+                <div className={styles.hid1}>
+                <Gird5/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
               <div className={styles.g3}>
-                <div style={{width:'370px'}}>
-                <Gird6/>
+                <div className={styles.g3_1} style={{width:'370px'}}>
+                <div className={styles.hid1}>
+                <Gird6/></div>
+                <div className={styles.hid}></div>
+                <div className={styles.hide}>
+                  <p>Luxury Hotel</p>
+                  <h3>Maison Lumière</h3>
+                </div>
                 </div>
               </div>
             </div>

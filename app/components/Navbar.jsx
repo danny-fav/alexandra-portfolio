@@ -5,7 +5,7 @@ import Navphone from './Navphone';
 const Navbar = () => {
   return (
     <div>
-      <nav className={styles.nav} style={{backdropFilter:'blur(5px)'}}>
+      <nav className={styles.nav}>
         <div className={styles.navleft}>
             <span className={styles.navleft1}>A</span>
             <span className={styles.navleft2}>lexandra</span>
